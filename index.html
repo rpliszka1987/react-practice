@@ -34,6 +34,29 @@
             title: hobbie
         }))
 
+        const interestsObject = [
+            {
+                id: 1,
+                title: "Basketball"
+            },
+            {
+                id: 2,
+                title: "Playing Call of Duty"
+            },
+            {
+                id: 3,
+                title: "Hanging out with friends"
+            },
+            {
+                id: 4,
+                title: "Sleeping"
+            },
+            {
+                id: 5,
+                title: "Swimming"
+            }
+        ]
+
 
         function Header(props) {
             return (
@@ -66,7 +89,7 @@
             return (
                 <div>
                     <Header name="Robert"/>
-                    <Main hobbies={hobbiesObject} />
+                    <Main hobbies={interestsObject} />
                     <Footer />
                 </div>
                 )
